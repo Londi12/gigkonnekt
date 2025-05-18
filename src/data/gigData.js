@@ -1,0 +1,194 @@
+export const gigData = [
+  {
+    id: 1,
+    title: "I will design modern UI/UX for your web application",
+    description: "Professional UI/UX design with modern aesthetics and user-friendly interface. Complete with wireframes and prototypes.",
+    price: 1200,
+    sellerName: "AlexDesigns",
+    rating: 4.9,
+    reviewCount: 287,
+    deliveryTime: 3, // in days
+    category: "Web Design",
+    image: "https://images.unsplash.com/photo-1587440871875-191322ee64b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 2,
+    title: "I will develop a responsive React website with Tailwind CSS",
+    description: "Custom React development with Tailwind CSS for a modern, responsive website. Fast delivery and clean code guaranteed.",
+    price: 150,
+    sellerName: "ReactNinja",
+    rating: 5.0,
+    reviewCount: 142,
+    deliveryTime: 5,
+    category: "Web Development",
+    image: "https://images.unsplash.com/photo-1581276879432-15e50529f34b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 3,
+    title: "I will create a custom logo design for your brand",
+    description: "Professional logo design that represents your brand identity. Includes multiple concepts and unlimited revisions.",
+    price: 80,
+    sellerName: "LogoMaster",
+    rating: 4.7,
+    reviewCount: 319,
+    deliveryTime: 2,
+    category: "Graphic Design",
+    image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 4,
+    title: "I will set up your WordPress website with premium theme",
+    description: "Complete WordPress setup with premium theme installation, plugins configuration and responsive design for all devices.",
+    price: 95,
+    sellerName: "WPExpert",
+    rating: 4.8,
+    reviewCount: 211,
+    deliveryTime: 4,
+    category: "WordPress",
+    image: "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 5,
+    title: "I will write SEO optimized content for your website",
+    description: "High-quality, SEO-friendly content that ranks well on search engines. Well-researched and engaging articles tailored to your niche.",
+    price: 60,
+    sellerName: "ContentPro",
+    rating: 4.6,
+    reviewCount: 178,
+    deliveryTime: 2,
+    category: "Content Writing",
+    image: "https://images.unsplash.com/photo-1555421689-3f034debb7a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+  },  {
+    id: 6,
+    title: "I will create a professional social media strategy",
+    description: "Complete social media strategy with content calendar, posting schedule, and growth tactics for better engagement.",
+    price: 1100,
+    sellerName: "SocialGuru",
+    rating: 4.9,
+    reviewCount: 156,
+    deliveryTime: 3,
+    category: "Digital Marketing",
+    image: "https://images.unsplash.com/photo-1611926653458-09294b3142bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 7,
+    title: "I will provide BEE compliance consulting for your business",
+    description: "Expert BEE consulting to help your business achieve optimal BEE rating and compliance. Includes strategy and documentation guidance.",
+    price: 1750,
+    sellerName: "BEEExpert",
+    rating: 4.8,
+    reviewCount: 92,
+    deliveryTime: 7,
+    category: "BEE Consulting",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 8,
+    title: "I will create handmade beaded jewelry with South African designs",
+    description: "Authentic South African beadwork and jewelry handcrafted with traditional designs and modern flair. Custom orders welcome.",
+    price: 350,
+    sellerName: "AfriBeads",
+    rating: 4.9,
+    reviewCount: 137,
+    deliveryTime: 5,
+    category: "Local Crafts",
+    image: "https://images.unsplash.com/photo-1601501475037-3958e2bac1b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 9,
+    title: "I will plan your perfect Garden Route tour itinerary",
+    description: "Customized Garden Route tour planning with insider tips, accommodation recommendations, and hidden gems along South Africa's most scenic coastline.",
+    price: 800,
+    sellerName: "SAExplorer",
+    rating: 5.0,
+    reviewCount: 74,
+    deliveryTime: 3,
+    category: "SA Tourism",
+    image: "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 10,
+    title: "I will develop a township economy business growth strategy",
+    description: "Specialized business development consulting for township-based businesses. Includes market analysis, growth strategies, and funding opportunities.",
+    price: 1200,
+    sellerName: "TownshipGrowth",
+    rating: 4.7,
+    reviewCount: 46,
+    deliveryTime: 6,
+    category: "Township Economy",
+    image: "https://images.unsplash.com/photo-1517940310602-26535839fe84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+  }
+  // South Africa specific gigs
+  {
+    id: 7,
+    title: "I will provide BEE certification consulting for your SA business",
+    description: "Expert BEE consulting services to help your business achieve optimal B-BBEE compliance and certification levels. Specialized for South African companies.",
+    price: 2500,
+    sellerName: "BEEspecialist",
+    rating: 4.9,
+    reviewCount: 78,
+    deliveryTime: 14,
+    category: "BEE Consulting",
+    image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 8,
+    title: "I will create authentic South African beadwork and crafts",
+    description: "Handcrafted traditional South African beadwork made by local artisans. Perfect for gifts, home decoration, or corporate souvenirs.",
+    price: 450,
+    sellerName: "SAcrafts",
+    rating: 5.0,
+    reviewCount: 124,
+    deliveryTime: 7,
+    category: "Local Crafts",
+    image: "https://images.unsplash.com/photo-1621478374422-35206faeddfb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 9,
+    title: "I will design a township economy business strategy",
+    description: "Specialized business consulting for township-based enterprises and spaza shops. Includes market analysis, growth strategies and funding advice.",
+    price: 1800,
+    sellerName: "TownshipBiz",
+    rating: 4.8,
+    reviewCount: 42,
+    deliveryTime: 10,
+    category: "Township Economy",
+    image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 10,
+    title: "I will create custom SA tourism experiences and itineraries",
+    description: "Custom travel itineraries featuring South Africa's best destinations. Experience Cape Town, Kruger Park, Garden Route and more with local expertise.",
+    price: 850,
+    sellerName: "SAadventures",
+    rating: 4.9,
+    reviewCount: 156,
+    deliveryTime: 5,
+    category: "SA Tourism",
+    image: "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 11,
+    title: "I will develop low-data mobile websites for SA audiences",
+    description: "Mobile-optimized websites designed specifically for South African mobile users. Fast loading, low data consumption, works well on all networks.",
+    price: 1500,
+    sellerName: "MobileDevZA",
+    rating: 4.7,
+    reviewCount: 89,
+    deliveryTime: 7,
+    category: "Web Development",
+    image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 12,
+    title: "I will create Shweshwe-inspired graphic designs",
+    description: "Modern graphic designs inspired by traditional South African Shweshwe patterns. Perfect for branding, packaging, and social media content.",
+    price: 600,
+    sellerName: "AfriDesigner",
+    rating: 4.8,
+    reviewCount: 65,
+    deliveryTime: 4,
+    category: "Graphic Design",
+    image: "https://images.unsplash.com/photo-1515041219749-89347f83291a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+  }
+];
