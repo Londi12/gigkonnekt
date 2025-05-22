@@ -117,8 +117,7 @@ export const gigData = [
     deliveryTime: 6,
     category: "Township Economy",
     image: "https://images.unsplash.com/photo-1517940310602-26535839fe84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
-  }
-  // South Africa specific gigs
+  },
   {
     id: 7,
     title: "I will provide BEE certification consulting for your SA business",
